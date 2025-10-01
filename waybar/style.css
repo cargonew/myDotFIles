@@ -1,0 +1,59 @@
+/* Global bar */
+window#waybar {
+  background: rgba(20, 20, 20, 0.5); /* transparent, 0.0 fully invisible, 1.0 opaque */
+  border-bottom: 2px solid rgba(68,68,68,0.5); /* optional subtle border */
+  color: #eee;
+  font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+  font-size: 13px;
+  padding: 0 8px;
+}
+
+/* Workspaces */
+#workspaces button {
+  padding: 0 6px;
+  margin: 2px;
+  border-radius: 8px;
+  background: transparent;
+  color: #bbb;
+  font-weight: normal;
+}
+
+/* Focused workspace */
+#workspaces button.focused {
+  background: #444;
+  color: #fff;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+  background: #f53c3c;
+  color: #fff;
+}
+
+/* Hover effect */
+#workspaces button:hover {
+  background: #555;
+  color: #fff;
+}
+
+/* Right-side modules */
+#pulseaudio, #network, #battery, #clock, #custom-power {
+  padding: 0 10px;
+  margin: 0 4px;
+  border-radius: 8px;
+  background: rgba(51,51,51,0.5); /* semi-transparent */
+  color: #eee;
+}
+
+/* Hover effect for modules */
+#pulseaudio:hover, #network:hover, #battery:hover, #clock:hover, #custom-power:hover {
+  background: rgba(85,85,85,0.7);
+  color: #fff;
+}
+
+/* Power button special */
+#custom-power {
+  color: #f53c3c;
+  font-weight: bold;
+}
+

@@ -1,0 +1,18 @@
+2025/10/01-16:24:01.446 6fb Reusing MANIFEST /home/okuhle/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2025/10/01-16:24:01.447 6fb Recovering log #10
+2025/10/01-16:24:01.754 6fb Reusing old log /home/okuhle/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000010.log 
+2025/10/01-16:37:04.168 6bb Compacting 1@1 + 1@2 files
+2025/10/01-16:37:04.303 6bb Generated table #13@1: 7 keys, 49113 bytes
+2025/10/01-16:37:04.303 6bb Compacted 1@1 + 1@2 files => 49113 bytes
+2025/10/01-16:37:04.502 6bb compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/01-16:37:04.503 6bb Delete type=2 #11
+2025/10/01-16:37:04.503 6bb Delete type=2 #9
+2025/10/01-18:22:39.833 6bb Level-0 table #15: started
+2025/10/01-18:22:39.918 6bb Level-0 table #15: 244025 bytes OK
+2025/10/01-18:22:39.996 6bb Delete type=0 #10
+2025/10/01-18:34:10.333 6bb Compacting 1@1 + 1@2 files
+2025/10/01-18:34:10.404 6bb Generated table #16@1: 7 keys, 49335 bytes
+2025/10/01-18:34:10.405 6bb Compacted 1@1 + 1@2 files => 49335 bytes
+2025/10/01-18:34:10.445 6bb compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/01-18:34:10.446 6bb Delete type=2 #15
+2025/10/01-18:34:10.446 6bb Delete type=2 #13
