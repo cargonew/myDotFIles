@@ -1,18 +1,14 @@
-# Minimal Primeagen-style cockpit
-add_newline = false
-prompt_order = ["directory", "git_branch", "git_status", "line_break", "character"]
 
-# Directory
+add_newline = false
+
 [directory]
 truncation_length = 3
 style = "cyan"
 
-# Git branch
 [git_branch]
-symbol = " "  # Nerd Font branch icon
+symbol = " "      # Nerd Font branch icon
 style = "bold green"
 
-# Git status icons
 [git_status]
 format = "([$all_status$ahead_behind]($style))"
 style = "bold yellow"
@@ -26,10 +22,13 @@ ahead = "↑"
 behind = "↓"
 stashed = "⚑"
 
-# Prompt character
 [character]
 symbol = "❯"
 style = "bold blue"
 error_symbol = "✖"
 error_style = "bold red"
+
+format = """
+$directory$git_branch$git_status
+$character """
 
